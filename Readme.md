@@ -1,3 +1,5 @@
+![demo](AllSight.gif)
+
 # allsight
 
 allsight is a cross-platform intelligence layer for prediction markets.
