@@ -1,3 +1,41 @@
+# allsight
+
+allsight is a cross-platform intelligence layer for prediction markets.
+
+it aggregates markets across web2 and web3, normalizes their structure and rules, and exposes pricing inconsistencies and resolution risk through a single coherent surface.
+
+the problem is not access to markets.
+the problem is fragmentation.
+
+prices, deadlines, resolution sources, and settlement logic vary across platforms. reconciling this manually is slow, error-prone, and expensive. allsight exists to remove that overhead.
+
+## what it does
+
+- ingests live and batch market data from multiple platforms
+- normalizes schemas, timing, and resolution criteria
+- maps equivalent markets with assisted verification
+- compares implied probabilities across venues
+- flags arbitrage, rule conflicts, and execution risk
+- exposes read-only insights via api and dashboard
+
+## what it is not
+
+- not a betting platform
+- not custodial
+- not automation-first
+
+## design stance
+
+- analytics before execution
+- correctness over speed
+- human-in-the-loop where ambiguity exists
+- infrastructure, not hype
+
+## status
+
+early-stage.
+core systems under active development.
+
 
 ## project structure
 
