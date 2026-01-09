@@ -1,0 +1,10 @@
+# grafana dashboards for monitoring
+
+dashboard:
+  - name: allsight-metrics
+    panels:
+      - ingestion_rate
+      - api_latency
+      - arbitrage_opportunities
+      - websocket_connections
+      - cache_hit_rate

@@ -1,4 +1,6 @@
-![demo](AllSight.gif)
+<p align="center">
+  <img src="AllSight.gif" alt="demo" width="600" height="400"/>
+</p>
 
 # allsight
 
