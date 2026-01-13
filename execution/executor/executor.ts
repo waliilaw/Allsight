@@ -2,7 +2,7 @@
 
 export class Executor {
   async placeOrder(route: any) {
-    const { platform, market, side, amount } = route;
+    const { platform } = route;
 
     switch (platform) {
       case 'polymarket':

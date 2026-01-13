@@ -1,6 +1,6 @@
-import { Router } from './router/router';
-import { Executor } from './executor/executor';
-import { PositionTracker } from './positions/tracker';
+import { Router } from '../router/router';
+import { Executor } from '../executor/executor';
+import { PositionTracker } from '../positions/tracker';
 
 // execution service
 // routes orders to optimal platform and manages positions

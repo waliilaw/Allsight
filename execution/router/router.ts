@@ -7,7 +7,7 @@ export class Router {
     
     const candidates = this.getCandidates(order);
     const scored = candidates.map(c => ({
-      ...c,
+      platform: c,
       score: this.scoreCandidate(c, order),
     }));
 
@@ -16,12 +16,12 @@ export class Router {
     return scored[0];
   }
 
-  private getCandidates(order: any) {
+  private getCandidates(_order: any) {
     // return platforms that support this market
     return [];
   }
 
-  private scoreCandidate(candidate: any, order: any): number {
+  private scoreCandidate(_candidate: any, _order: any): number {
     // scoring logic: best price, liquidity, fees
     return 0;
   }

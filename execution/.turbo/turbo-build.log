@@ -1,0 +1,18 @@
+
+> @allsight/execution@0.1.0 build
+> tsc
+
+executor/executor.ts(5,23): error TS6133: 'market' is declared but its value is never read.
+executor/executor.ts(5,31): error TS6133: 'side' is declared but its value is never read.
+executor/executor.ts(5,37): error TS6133: 'amount' is declared but its value is never read.
+router/router.ts(10,7): error TS2698: Spread types may only be created from object types.
+router/router.ts(19,25): error TS6133: 'order' is declared but its value is never read.
+router/router.ts(24,26): error TS6133: 'candidate' is declared but its value is never read.
+router/router.ts(24,42): error TS6133: 'order' is declared but its value is never read.
+npm error Lifecycle script `build` failed with error:
+npm error code 2
+npm error path /Users/wali/Downloads/Allsight/execution
+npm error workspace @allsight/execution@0.1.0
+npm error location /Users/wali/Downloads/Allsight/execution
+npm error command failed
+npm error command sh -c tsc

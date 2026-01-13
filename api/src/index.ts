@@ -1,9 +1,9 @@
 import express from 'express';
 import helmet from 'helmet';
 import cors from 'cors';
-import { router as restRoutes } from './rest/routes';
-import { WebSocketServer } from './websocket/server';
-import { AuthMiddleware } from './auth/middleware';
+import { router as restRoutes } from '../rest/routes';
+import { WebSocketServer } from '../websocket/server';
+import { AuthMiddleware } from '../auth/middleware';
 
 const app = express();
 const port = process.env.API_PORT || 3000;

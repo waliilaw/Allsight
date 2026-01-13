@@ -1,7 +1,7 @@
-import { MarketParser } from './parsers/parser';
-import { MarketMatcher } from './matcher/matcher';
-import { RuleValidator } from './validator/validator';
-import { CacheStore } from './cache/redis';
+import { MarketParser } from '../parsers/parser';
+import { MarketMatcher } from '../matcher/matcher';
+import { RuleValidator } from '../validator/validator';
+import { CacheStore } from '../cache/redis';
 
 // normalization service
 // consumes raw market data, normalizes schema, matches equivalent markets

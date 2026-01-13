@@ -1,7 +1,7 @@
-import { PricingEngine } from './pricing/engine';
-import { ArbitrageScanner } from './arbitrage/scanner';
-import { RiskScorer } from './risk/scorer';
-import { SignalManager } from './signals/manager';
+import { PricingEngine } from '../pricing/engine';
+import { ArbitrageScanner } from '../arbitrage/scanner';
+import { RiskScorer } from '../risk/scorer';
+import { SignalManager } from '../signals/manager';
 
 // analysis service
 // calculates implied probabilities, detects arbitrage, scores risk

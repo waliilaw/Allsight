@@ -1,7 +1,7 @@
-import { PolymarketAdapter } from './adapters/polymarket';
-import { KalshiAdapter } from './adapters/kalshi';
-import { BetfairAdapter } from './adapters/betfair';
-import { MessageQueue } from './queue/kafka';
+import { PolymarketAdapter } from '../adapters/polymarket';
+import { KalshiAdapter } from '../adapters/kalshi';
+import { BetfairAdapter } from '../adapters/betfair';
+import { MessageQueue } from '../queue/kafka';
 
 // main ingestion orchestrator
 // pulls data from all platform adapters and pushes to message queue

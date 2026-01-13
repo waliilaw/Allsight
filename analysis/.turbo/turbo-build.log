@@ -1,0 +1,15 @@
+
+> @allsight/analysis@0.1.0 build
+> tsc
+
+signals/manager.ts(6,9): error TS6133: 'prices' is declared but its value is never read.
+signals/manager.ts(6,24): error TS6133: 'opportunities' is declared but its value is never read.
+signals/manager.ts(7,11): error TS7034: Variable 'fired' implicitly has type 'any[]' in some locations where its type cannot be determined.
+signals/manager.ts(13,12): error TS7005: Variable 'fired' implicitly has an 'any[]' type.
+npm error Lifecycle script `build` failed with error:
+npm error code 2
+npm error path /Users/wali/Downloads/Allsight/analysis
+npm error workspace @allsight/analysis@0.1.0
+npm error location /Users/wali/Downloads/Allsight/analysis
+npm error command failed
+npm error command sh -c tsc

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "cross-platform prediction market aggregator with execution routing",
   "private": true,
+  "packageManager": "npm@10.0.0",
   "workspaces": [
     "ingestion",
     "normalization",

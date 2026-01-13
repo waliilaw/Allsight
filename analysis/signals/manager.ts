@@ -3,8 +3,8 @@
 export class SignalManager {
   private triggers: any[] = [];
 
-  check(prices: any[], opportunities: any[]): any[] {
-    const fired = [];
+  check(_prices: any[], _opportunities: any[]): any[] {
+    const fired: any[] = [];
 
     // stub: would check user-configured triggers
     // e.g., "alert me if prob changes by >10%"
